@@ -3,7 +3,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import java.io.IOException;
 
 
 @SpringBootApplication
@@ -13,7 +12,7 @@ import java.io.IOException;
 
 public class DemoApplication {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
 /*		String url = "http://www.google.com";

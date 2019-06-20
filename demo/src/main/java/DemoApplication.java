@@ -32,6 +32,6 @@ public class DemoApplication {
 	//http://zetcode.com/articles/springbootthymeleaf/
 	//https://www.dev2qa.com/spring-boot-web-mvc-using-embedded-h2-database-example/
 	//https://dashboard.heroku.com/apps/spring-boot-lambind60cb0a64cb046a14592b43d9385ad4a
-	//IGDB API KEY:
+	//IGDB API KEY: d60cb0a64cb046a14592b43d9385ad4a
 
 

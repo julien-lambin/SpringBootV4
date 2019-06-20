@@ -13,7 +13,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     public UserDetailsService userDetailsService() {
         InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
         manager.createUser(User.withDefaultPasswordEncoder()
-                .username("admin").password("admin123").roles("ADMIN").build());
+                .username("admin").password("password").roles("ADMIN").build());
         return manager;
     }
     @Override

@@ -51,3 +51,21 @@ table {
 table th, table td {
     padding: 5px;
 }
+
+.butn {
+  -webkit-border-radius: 29;
+  -moz-border-radius: 29;
+  border-radius: 29px;
+  font-family: "Century Gothic", helvetica, arial, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4CAF50;
+  padding: 10px 20px 10px 20px;
+  border: solid #4CAF50 0px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #0aa30a;
+  text-decoration: none;
+}

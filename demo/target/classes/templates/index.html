@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Home page</title>
+    <title>SpringBoot - Accueil</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
@@ -18,8 +18,12 @@
 </div>
 <center>
 <h1>Bienvenue</h1>
-<!--<a href="afficherjeux">Afficher les  jeux</a>-->
-...
+D'ici vous pouvez accéder a la base de donnée.
+</br>
+    </br>
+    <form method="POST" action="/h2">
+        <input type="submit" name="Ok" value="Accéder" class="butn" >
+    </form>
 </center>
 </body>
 </html>

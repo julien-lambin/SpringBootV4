@@ -5,6 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import java.io.IOException;
 
+
 @SpringBootApplication
 @ComponentScan(basePackages = "com")
 @EnableJpaRepositories("com.kf.demo")
@@ -31,7 +32,7 @@ public class DemoApplication {
 	//https://stackoverflow.com/questions/41521302/spring-boot-bean-null-exception
 	//http://zetcode.com/articles/springbootthymeleaf/
 	//https://www.dev2qa.com/spring-boot-web-mvc-using-embedded-h2-database-example/
-	//https://dashboard.heroku.com/apps/spring-boot-lambind60cb0a64cb046a14592b43d9385ad4a
+	//https://dashboard.heroku.com/apps/spring-boot-lambin
 	//IGDB API KEY: d60cb0a64cb046a14592b43d9385ad4a
 
 

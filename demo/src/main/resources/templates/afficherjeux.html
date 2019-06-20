@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>SpringBoot - Liste des jeux</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<div class="topnav">
+    <a href="index">Accueil</a>
+    <a class="active" href="afficherjeux">Liste Jeux</a>
+    <a href="ajouterjeu">Ajouter Jeu</a>
+    <!--<div class="topnav-right">
+        <a class="active" href="logout">Déconnexion</a>
+    </div>-->
+</div>
+<center>
+<h1>Liste des jeux</h1>
+<!--<a href="ajouterjeu">Ajouter un jeu</a>-->
+<br/><br/>
+<div>
+    <table border="1">
+        <tr>
+            <th>Titre</th>
+            <th>Date de sortie</th>
+            <th>Prix</th>
+        </tr>
+        <tr th:each ="game : ${games}">
+            <td th:text="${game.nom}">...</td>
+            <td th:text="${game.dateSortie}">...</td>
+            <td th:text="${game.prix}">...</td>
+        </tr>
+    </table>
+</div>
+</center>
+</body>
+</html>
